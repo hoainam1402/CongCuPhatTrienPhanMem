@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="vi">
 
 <head>
@@ -58,3 +58,4 @@
 </body>
 
 </html>
+//edit chi tiet sản phẩm
