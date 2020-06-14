@@ -75,7 +75,7 @@ function kiemTraDangNhap(){
                         <button type="button" class="form-button button-l margin-b" onclick="kiemTraDangNhap()">Sign In</button>
 
                         <div id="hienthiketqua"></div>
-                        <!-- Xử lí đăng nhập với thông tin tài khoản trên database -->
+                        <!-- Xử lí đăng nhập với thông tin tài khoản trên database o day-->
 
                         <!-- <a class="text-darkyellow" href="#"><small>Forgot your password?</small></a> -->
                         <!-- <p class="text-whitesmoke text-center"><small>Do not have an account?</small></p> -->
