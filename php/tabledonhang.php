@@ -6,7 +6,7 @@
 		$manguoidung = $_SESSION['currentUser']['MaND'];
 	
 		$sql="SELECT * FROM hoadon WHERE MaND=$manguoidung";
-		$dsdh=(new DB_driver())->get_list($sql);
+		$dsdh=(new DB_driver())->get_list($sql); 
 
 		if(sizeof($dsdh) > 0) {
 			echo '<table class="table table-striped" >
@@ -43,8 +43,7 @@
 
 		} else {
 			echo '<h2 style="color:green; text-align:center;">
-						Hiện chưa có đơn hàng nào, 
-						<a href="index.php" style="color:blue">Mua ngay</a>
+						Hiện chưa có đơn hàng nào, <a href="index.php" style="color:blue">Mua ngay</a>
 					</h2>';
 		}
 	}
