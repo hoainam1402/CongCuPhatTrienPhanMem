@@ -2,7 +2,7 @@
         session_start();
         $taikhoan=$_POST['data_username'];
         $matkhau=md5($_POST['data_password']);
-        
+    	//thuan sua conflict
         // Sau khi dang nhap
         require ("../BackEnd/ConnectionDB/DB_driver.php");
 
