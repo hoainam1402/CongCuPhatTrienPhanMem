@@ -6,7 +6,11 @@
 		$manguoidung = $_SESSION['currentUser']['MaND'];
 	
 		$sql="SELECT * FROM hoadon WHERE MaND=$manguoidung";
+<<<<<<< HEAD
+		$dsdh=(new DB_driver())->get_list($sql); 
+=======
 		$dsdh=(new DB_driver())->get_list($sql);
+>>>>>>> e447ccf46259030e7813435cca71f56912758c9c
 
 		if(sizeof($dsdh) > 0) {
 			echo '<table class="table table-striped" >
@@ -43,8 +47,12 @@
 
 		} else {
 			echo '<h2 style="color:green; text-align:center;">
+<<<<<<< HEAD
+						Hiện chưa có đơn hàng nào, <a href="index.php" style="color:blue">Mua ngay</a>
+=======
 						Hiện chưa có đơn hàng nào, 
 						<a href="index.php" style="color:blue">Mua ngay</a>
+>>>>>>> e447ccf46259030e7813435cca71f56912758c9c
 					</h2>';
 		}
 	}
