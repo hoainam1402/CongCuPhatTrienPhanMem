@@ -30,9 +30,9 @@
         echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
         $uploadOk = 0;
     }
-    // Check if $uploadOk is set to 0 by an error
+    // Check if $uploadOk is set to 0 by an errorsss
     if ($uploadOk == 0) {
-        echo "Sorry, your file was not uploaded.";
+        echo "Sorry, your file was not uploaded ssss.";
     // if everything is ok, try to upload file
     } else {
         if (move_uploaded_file($_FILES["hinhanh"]["tmp_name"], $target_file)) {
