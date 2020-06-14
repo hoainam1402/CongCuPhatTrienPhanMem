@@ -2,7 +2,9 @@
     <link rel="stylesheet" href="css/login.css">
     <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
- <meta charset="utf-8">
+ <meta charset="utf-8"> 
+    
+    //conflict
  <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Jquery -->
