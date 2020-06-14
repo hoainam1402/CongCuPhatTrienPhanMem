@@ -1,7 +1,7 @@
 <?php
 	require_once ("../BackEnd/ConnectionDB/DB_classes.php");
 	if(!isset($_POST['request']) && !isset($_GET['request'])) die();
-
+//thuan
 	switch ($_POST['request']) {
 		case 'thembinhluan':
 			$masp = $_POST['masp'];
