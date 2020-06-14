@@ -10,7 +10,7 @@
 	<title>Thế giới điện thoại</title>
 	<link rel="shortcut icon" href="img/favicon.ico" />
 
-	<!-- Load font awesome icons -->
+	//nam update test bug
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
 
 	<!-- Jquery -->
