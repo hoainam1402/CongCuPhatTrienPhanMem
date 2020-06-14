@@ -48,7 +48,7 @@
 		} else {
 			echo '<h2 style="color:green; text-align:center;">
 <<<<<<< HEAD
-						Hiện chưa có đơn hàng nào, <a href="index.php" style="color:blue">Mua ngay</a>
+						Hiện chưa có đơn hàng nào ko, <a href="index.php" style="color:blue">Mua ngay</a>
 =======
 						Hiện chưa có đơn hàng nào, 
 						<a href="index.php" style="color:blue">Mua ngay</a>

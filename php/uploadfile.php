@@ -38,7 +38,7 @@
         if (move_uploaded_file($_FILES["hinhanh"]["tmp_name"], $target_file)) {
             echo "The file ". basename( $_FILES["hinhanh"]["name"]). " has been uploaded.";
         } else {
-            echo "Sorry, there was an error uploading your file.";
+            echo "Sorry, there was an error uploading  aaaayour file.";
         }
     }
 ?>
